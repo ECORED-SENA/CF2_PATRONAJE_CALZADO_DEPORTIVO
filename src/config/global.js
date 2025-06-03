@@ -1,17 +1,18 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Fundamentos del Patronaje de Calzado: Medidas, Hormas y Enmascarado',
+    Description:
+      'Este componente formativo brinda los conocimientos esenciales para aprender a realizar el patronaje manual de calzado deportivo, con énfasis en el uso de sistemas de medidas, la comprensión de la estructura y tipos de hormas, y su conexión con la anatomía del pie. Asimismo, orienta al aprendiz en el uso correcto de herramientas técnicas y en la realización del proceso de enmascarado, una etapa fundamental en la creación del molde patrón. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -31,13 +32,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Sistemas de medidas de calzado',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Principales sistemas de numeración de calzado',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Conversión básica entre sistemas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Medida de ancho o volumen del pie',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +56,59 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Hormas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Partes de la horma',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Dimensiones de la horma',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Clasificación de las hormas',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Relación entre la anatomía del calzado y el pie',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Clasificación según la forma del pie',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Clasificación según el tipo de arco plantar',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Clasificación según la pisada',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Herramientas utilizadas en el proceso de patronaje',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Proceso de enmascarado de la horma',
         desarrolloContenidos: true,
       },
     ],
@@ -102,21 +159,100 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Hormas para calzado',
+      referencia: 'Hormas para zapatos. (s. f.). Mexpolimeros.',
+      tipo: 'Página Web',
+      link: 'https://www.mexpolimeros.com/app/hormas.html ',
+    },
+    {
+      tema: 'Guía de tallas',
+      referencia:
+        'Guia de tallas. (s. f.). Skatepro. https://www.skatepro.es/z151.htm',
+      tipo: 'Página Web',
+      link: 'https://www.skatepro.es/z151.htm ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Altura del tacón',
+      significado:
+        'distancia desde la talonera del calzado hasta el suelo, que determina la inclinación del zapato.',
+    },
+    {
+      termino: 'Empeine',
+      significado:
+        'parte superior del pie y del zapato que cubre desde los dedos hasta el inicio de la pierna.',
+    },
+    {
+      termino: 'Enfranque',
+      significado:
+        'parte media inferior de la horma entre la zona delantera y el talón.',
+    },
+    {
+      termino: 'Enmascarado',
+      significado:
+        'técnica que consiste en cubrir la horma con cinta adhesiva para trazar el diseño del calzado y trasladarlo a un patrón plano.',
+    },
+    {
+      termino: 'Horma',
+      significado:
+        'molde que imita la forma del pie humano y sirve como base para fabricar el calzado, determinando su forma y volumen.',
+    },
+    {
+      termino: '<em>Mondopoint</em>',
+      significado:
+        'sistema internacional de tallas de calzado que mide la longitud del pie en milímetros.',
+    },
+    {
+      termino: 'Patronaje',
+      significado:
+        'proceso de creación de moldes o patrones que sirven de guía para cortar las piezas del zapato.',
+    },
+    {
+      termino: 'Perímetro del pie',
+      significado:
+        'medida del contorno de la zona más ancha del pie, utilizada para definir el ancho del calzado.',
+    },
+    {
+      termino: 'Pisada pronadora',
+      significado:
+        'tipo de pisada en la que el pie se inclina hacia adentro al caminar, generando desgaste interno en el calzado.',
+    },
+    {
+      termino: 'Puntera',
+      significado:
+        'parte frontal del calzado que cubre y protege los dedos del pie.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arias Navarro, A., & Acevedo Ramírez, G. (1998). Patronaje, modelado y escalado de calzado.',
+      link: '',
+    },
+    {
+      referencia:
+        'Bossan, M. J. (2007). El arte del zapato (S. Caballero, Trad.). Edimat Libros.',
+      link: '',
+    },
+    {
+      referencia:
+        'García Macias, A. (1957). Arte y técnica del patronaje y modelaje del calzado. Editorial Dossat.',
+      link: '',
+    },
+    {
+      referencia:
+        'Motawi, W. M., & Motawi, A. M. (2021). Patronaje de calzado y diseño de hormas. Wade Motawi.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vass, L., & Molnár, M. (1999). Zapatos de caballero hechos a mano. Konemann.',
+      link: '',
+    },
+    {
+      referencia:
+        'Zambrano, L. C. (1990). Bloque modular 1: Preparación de avíos para calzado. Módulo instruccional 1: Estructura del pie – Proporciones y medidas. CEFAD, Regional Bogotá.',
       link: '',
     },
   ],
@@ -125,14 +261,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +276,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Elkin Darío Fontecha Pardo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,34 +293,69 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Robinson Javier Ordoñez Barreiro',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
     {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
+      titulo: 'GESTORES DE REPOSITORIO',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

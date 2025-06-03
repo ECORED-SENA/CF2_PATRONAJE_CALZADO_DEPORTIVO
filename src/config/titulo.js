@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Fundamentos del Patronaje de Calzado: Medidas, Hormas y Enmascarado'
