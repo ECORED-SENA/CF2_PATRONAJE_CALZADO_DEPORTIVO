@@ -141,7 +141,7 @@
             .row(titulo="Ángulo del asiento del talón").ajuste-cajaAcordion
               p.mb-0 Cambia según la altura del tacón. Un tacón de 1 cm tiene un ángulo de 0º; uno de 1,3 cm tiene 1º, y este aumenta 1º por cada 3 mm. Por ejemplo, un tacón de 5 cm genera un ángulo de 16º; uno de 6,35 cm (2.5") llega a 27º.
             .row(titulo="Curvatura del talón").ajuste-cajaAcordion
-              p.mb-0 Radio de la curvatura del contorno de la talonera. En hormas femeninas suele ser de 90 mm; en masculinas, entre 105 mm y 115 mm.
+              p.mb-0 Radio de la curvatura del contorno de la talonera. En hormas femeninas, suele ser de 90 mm; en masculinas, entre 105 mm y 115 mm.
         .col-xl-auto(data-aos="fade-left").espacio___movil_4
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 7. 
@@ -262,7 +262,7 @@
             .row(titulo="Perímetro de retención").ajuste-cajaAcordion
               p.mb-0 Se mide desde el punto medio entre el perímetro de articulación y el perímetro de empeine hasta la mitad del cono. Se toma a 25 mm desde el punto de bridaje en el cono y 25 mm desde la línea de ancho de bola en la planta.
             .row(titulo="Perímetro de empeine").ajuste-cajaAcordion
-              p.mb-0 Se mide desde el enfranque hasta la parte superior del cono. Se toma 25 mm por encima del perímetro de retención, y 25 mm por detrás de este en la planta.
+              p.mb-0 Se mide desde el enfranque hasta la parte superior del cono. Se toma 25 mm por encima del perímetro de retención y 25 mm por detrás de este en la planta.
             .row(titulo="Perímetro talón-cuñas").ajuste-cajaAcordion
               p.mb-0 Medición que va desde el canto del talón, pasando por el cuboide, hasta el cruce del perímetro del empeine con el eje principal. Determina el tamaño de la abertura del zapato. En un zapato sin cordones talla 9 US de hombre, puede variar entre 360 mm y 378 mm.
             .row(titulo="Perímetro talonera-empeine").ajuste-cajaAcordion
@@ -430,7 +430,7 @@
                   img(src='@/assets/curso/temas/img36.svg', alt='' style="max-width: 400px").m-auto
               .col-xl-6.mb-4.col-xs-12
                 h4.mb-4 Horma entera
-                p.mb-0 Horma completa sin divisiones ni mecanismos. Usada en sandalias, zapatos de salón y zapatos con diseño abierto que permiten deshormado sin dificultad.
+                p.mb-0 Horma completa, sin divisiones ni mecanismos. Usada en sandalias, zapatos de salón y zapatos con diseño abierto que permiten deshormado sin dificultad.
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
                 figure.d-none.d-xl-block

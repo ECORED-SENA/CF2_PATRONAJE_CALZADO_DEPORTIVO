@@ -28,7 +28,7 @@
             p.mb-0.estilo___caja_2 Adicionalmente, el componente formativo incluye el aprendizaje del proceso de enmascarado, una técnica esencial para trasladar con precisión las formas de la horma a un plano bidimensional, lo que facilita el trazado de patrones. El uso adecuado de herramientas técnicas especializadas y el dominio de esta metodología permite al aprendiz desarrollar moldes que respondan a criterios de calidad, ergonomía y funcionalidad en el diseño del calzado deportivo.
           .col-xl-auto(data-aos="fade-left")
             figure.d-none.d-xl-block
-              img(src='@/assets/curso/intro/img3.svg', alt='' style="max-width: 300px").m-auto
+              img(src='@/assets/curso/intro/img3.png', alt='' style="max-width: 300px").m-auto
 
 </template>
 

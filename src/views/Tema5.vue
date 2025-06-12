@@ -101,7 +101,7 @@
             figure
               img.mb-2(src="@/assets/curso/temas/img68.jpg", alt="Vista superior de la horma con cobertura total de cinta de enmascarar, lista para el trazado del diseño del calzado. ").m-auto
       .row(titulo="Horma enmascarada con línea central marcada").ajuste-cajaAcordion
-        p.mb-4 Por último se refilan los sobrantes de cinta y se realiza un corte por los ejes obtenidos, es decir el eje del empeine y del talón.
+        p.mb-4 Por último se refilan los sobrantes de cinta y se realiza un corte por los ejes obtenidos, es decir, el eje del empeine y del talón.
         .row.justify-content-center
           .col-xl-8
             .titulo-sexto.color-acento-contenido.mb-3
