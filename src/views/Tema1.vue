@@ -13,8 +13,66 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La industria del calzado cuenta con distintos sistemas de medidas para determinar la longitud y el volumen del pie, así como las dimensiones de las hormas utilizadas en el proceso de fabricación. Estos sistemas varían según la región del mundo y responden a estándares técnicos específicos. El largo del pie se mide desde el punto más sobresaliente del talón hasta el extremo del dedo más largo.
+
+    p.mb-5 El paso a paso para tomar las medidas del pie y determinar la talla de calzado es:
+    
+    .fondo___slider
+      .px-5
+        .ajuste-slider(data-aos="zoom-in")
+          SlyderA(tipo="b")
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Preparar el material
+                p.mb-0 Tener a la mano una hoja de papel, un lápiz y una regla o metro.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img70.png', alt='' style="max-width: 400px").m-auto
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Colocar el papel en el suelo
+                p.mb-0 Ubicar el papel sobre una superficie lisa y estable. Debe ser lo suficientemente grande para que quepa todo el pie.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img75.png', alt='' style="max-width: 400px").m-auto
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Posición del pie
+                p.mb-0 La persona debe ponerse de pie, con el peso distribuido de forma uniforme. Colocar el pie a medir en el centro de la hoja, sin mover talón ni dedos.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img76.png', alt='' style="max-width: 400px").m-auto
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Dibujar el contorno
+                p.mb-0 Trazar el contorno del pie con el lápiz, manteniéndolo perpendicular a la hoja, sin inclinarlo hacia adentro ni hacia afuera.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img77.png', alt='' style="max-width: 400px").m-auto
+                
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Marcar los puntos extremos
+                p.mb-0 Identificar y señalar el punto más saliente del talón y el más lejano de la punta del dedo más largo (generalmente el dedo gordo).
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img71.png', alt='' style="max-width: 400px").m-auto
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Medir
+                p.mb-0 Medir en línea recta la distancia entre los puntos marcados usando la regla o metro. Registrar el resultado en milímetros o centímetros.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img72.png', alt='' style="max-width: 400px").m-auto
+            .row.h-100.justify-content-center.align-items-center
+              .col-xl-6.mb-4.col-xs-12
+                h4.mb-4 Determinar la talla
+                p.mb-0 Consultar una tabla de equivalencias (americana, europea o del fabricante) para encontrar el número correspondiente a la longitud del pie medida.
+              .col-xl-6
+                figure.d-none.d-xl-block
+                  img(src='@/assets/curso/temas/img73.png', alt='' style="max-width: 400px").m-auto
     
     <!-- BLOQUE 1 -->
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Principales sistemas de numeración de calzado
 
@@ -25,7 +83,7 @@
         figure
           img(src="@/assets/curso/temas/img2.svg" style="max-width: 70px").m-auto
       .col
-        h3 Sistemas métrico - <em>Mondopoint</em>
+        h3 Sistema métrico - <em>Mondopoint</em>
 
     p.mb-4.espacio___movil_1 Este sistema fue estandarizado por el Instituto Colombiano de Normas Técnicas (ICONTEC) mediante la norma 1639.
 

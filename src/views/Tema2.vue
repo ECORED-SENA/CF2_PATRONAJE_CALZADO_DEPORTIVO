@@ -427,31 +427,33 @@
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
                 figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img36.svg', alt='' style="max-width: 400px").m-auto
+                  img(src='@/assets/curso/temas/img36.png', alt='' style="max-width: 400px").m-auto
               .col-xl-6.mb-4.col-xs-12
                 h4.mb-4 Horma entera
                 p.mb-0 Horma completa, sin divisiones ni mecanismos. Usada en sandalias, zapatos de salón y zapatos con diseño abierto que permiten deshormado sin dificultad.
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
                 figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img37.svg', alt='' style="max-width: 400px").m-auto
+                  img(src='@/assets/curso/temas/img37.png', alt='' style="max-width: 400px").m-auto
               .col-xl-6.mb-4.col-xs-12
                 h4.mb-4 Horma con cuña
-                p.mb-0 Incorpora una pieza divisible en la zona del empeine que se separa para facilitar el deshormado. Indicada para zapatos abotinados o botines. Muy utilizada en botas y zapatos abotinados.
+                p.mb-3 Incorpora una pieza divisible en la zona del empeine que se separa para facilitar el deshormado.
+                p.mb-0 Indicada para zapatos abotinados o botines. Muy utilizada en botas y zapatos abotinados.
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
                 figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img38.svg', alt='' style="max-width: 400px").m-auto
+                  img(src='@/assets/curso/temas/img38.png', alt='' style="max-width: 400px").m-auto
               .col-xl-6.mb-4.col-xs-12
                 h4.mb-4 Horma con articulado Alfa (V)
                 p.mb-0 Tiene una bisagra que permite la reducción y apertura de la horma.
             .row.h-100.justify-content-center.align-items-center
               .col-xl-6
                 figure.d-none.d-xl-block
-                  img(src='@/assets/curso/temas/img39.svg', alt='' style="max-width: 400px").m-auto
+                  img(src='@/assets/curso/temas/img39.png', alt='' style="max-width: 400px").m-auto
               .col-xl-6.mb-4.col-xs-12
                 h4.mb-4 Horma con articulado Tendo (Kiowa)
-                p.mb-0 El talón se desliza hacia arriba sin torsionar el calzado. Reduce la horma durante la extracción. Ideal para calzado plano y botas de baja altura.
+                p.mb-3 El talón se desliza hacia arriba sin torsionar el calzado. Reduce la horma durante la extracción.
+                p.mb-0 Ideal para calzado plano y botas de baja altura.
     
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto

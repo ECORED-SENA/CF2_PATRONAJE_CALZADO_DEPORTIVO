@@ -20,7 +20,7 @@
     
     .estilo___caja_19.m-0
       figure.mb-5(data-aos="zoom-in")
-        img(src='@/assets/curso/temas/img54.svg', alt='Herramientas sobre una mesa , incluyendo cuchilla, borrador, compás, reglas, tijeras, cinta, portaminas, piedra de afilar y tabla de corte.' style="max-width: 500px").m-auto
+        img(src='@/assets/curso/temas/img54.png', alt='Herramientas sobre una mesa , incluyendo cuchilla, borrador, compás, reglas, tijeras, cinta, portaminas, piedra de afilar y tabla de corte.' style="max-width: 500px").m-auto
       .row.justify-content-center
         .col-xl-10
           .row.align-items-center.fondo___img_2(data-aos="zoom-in")

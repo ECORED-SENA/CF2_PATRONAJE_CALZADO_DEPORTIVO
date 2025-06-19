@@ -44,7 +44,7 @@
               h5 Figura 15. 
               span Aplicación de la primera tira de cinta en la horma
             figure
-              img.mb-2(src="@/assets/curso/temas/img62.jpg", alt="Colocación de una tira de cinta de enmascarar desde el centro del talón hasta la punta del empeine para iniciar el proceso de enmascarado. ").m-auto
+              img.mb-1(src="@/assets/curso/temas/img62.png", alt="Colocación de una tira de cinta de enmascarar desde el centro del talón hasta la punta del empeine para iniciar el proceso de enmascarado. ").m-auto
             figcaption.ajuste___color_nota Nota. Es importante mantener siempre visibles los puntos centrales para evitar que se pierdan al colocar la cinta.
       .row(titulo="Refuerzo del enmascarado en el empeine y lateral").ajuste-cajaAcordion
         p.mb-4  A continuación, se coloca una cinta de refuerzo aproximadamente a la altura de la línea de profundidad en ambas caras de la horma. Luego, se aplica otra cinta sobre la línea de plantilla, rodeando el contorno de la horma. Esta debe quedar colocada de modo que una mitad cubra el perfil lateral y la otra se doble hacia la cara plantar.
@@ -54,7 +54,7 @@
               h5 Figura 16. 
               span Refuerzo del enmascarado en el empeine y lateral
             figure
-              img.mb-2(src="@/assets/curso/temas/img63.jpg", alt="Aplicación de cintas adicionales en el empeine y el lateral de la horma para reforzar el enmascarado y cubrir uniformemente la superficie. ").m-auto
+              img.mb-2(src="@/assets/curso/temas/img63.png", alt="Aplicación de cintas adicionales en el empeine y el lateral de la horma para reforzar el enmascarado y cubrir uniformemente la superficie. ").m-auto
       .row(titulo="Cobertura lateral completa de la horma").ajuste-cajaAcordion
         p.mb-4 Para continuar con el proceso de enmascarado, se deben colocar tiras de cinta en los laterales y la parte posterior de la horma. Estas franjas deben ubicarse de manera paralela a la cinta de refuerzo previamente colocada, es decir, siguiendo la línea de profundidad, extendiéndose tanto hacia arriba como hacia abajo desde dicha cinta de refuerzo, como se ilustra en la siguiente imagen.
         .row.justify-content-center
@@ -63,7 +63,7 @@
               h5 Figura 17. 
               span Cobertura lateral completa de la horma
             figure
-              img.mb-2(src="@/assets/curso/temas/img64.jpg", alt="Enmascarado completo de ambos laterales de la horma con tiras de cinta superpuestas que aseguran una cobertura uniforme para el patronaje.").m-auto
+              img.mb-2(src="@/assets/curso/temas/img64.png", alt="Enmascarado completo de ambos laterales de la horma con tiras de cinta superpuestas que aseguran una cobertura uniforme para el patronaje.").m-auto
       .row(titulo="Aplicación de cinta sobre la horma en el eje del empeine").ajuste-cajaAcordion
         p.mb-4 Posteriormente, se aplican tiras de cinta de forma perpendicular al eje del empeine, cubriendo desde la punta hasta la parte superior de este. Para garantizar un enmascarado uniforme, cada tira debe superponerse a la mitad de la anterior. Esta operación se muestra en la siguiente imagen.
         .row.justify-content-center
@@ -72,7 +72,7 @@
               h5 Figura 18. 
               span Aplicación de cinta sobre la horma en el eje del empeine
             figure
-              img.mb-2(src="@/assets/curso/temas/img65.jpg", alt="Aplicación de cintas superpuestas en el empeine de la horma, cubriendo de la punta hacia arriba.").m-auto
+              img.mb-2(src="@/assets/curso/temas/img65.png", alt="Aplicación de cintas superpuestas en el empeine de la horma, cubriendo de la punta hacia arriba.").m-auto
       .row(titulo="Marcación de bordes en la horma").ajuste-cajaAcordion
         p.mb-4 A continuación, se coloca una cinta de refuerzo a lo largo del borde de la mesa y en el borde de la línea de plantilla. Luego, se marcan los bordes con un lápiz y se recorta el exceso de cinta tanto en la mesa como en la línea de plantilla de la horma.
         .row.justify-content-center
@@ -81,7 +81,7 @@
               h5 Figura 19. 
               span Marcación de bordes en la horma
             figure
-              img.mb-2(src="@/assets/curso/temas/img66.jpg", alt="Conjunto de vistas de una horma en las que se aprecia la cinta aplicada y la marcación de los bordes con lápiz antes del recorte.").m-auto
+              img.mb-2(src="@/assets/curso/temas/img66.png", alt="Conjunto de vistas de una horma en las que se aprecia la cinta aplicada y la marcación de los bordes con lápiz antes del recorte.").m-auto
       .row(titulo="Cinta de enmascarar para refuerzo").ajuste-cajaAcordion
         p.mb-4  Para marcar los ejes sobre la horma, tomamos una tira de cinta y la colocamos sobre la tabla de corte. Con un esfero, trazamos una línea recta en el centro de la cinta. Es importante destacar que esta tira debe ser lo suficientemente larga para cubrir tanto el empeine como el talón, ya que servirá como referencia para marcar los ejes de simetría. Este procedimiento se ilustra en la siguiente imagen.
         .row.justify-content-center
@@ -90,7 +90,7 @@
               h5 Figura 20. 
               span Cinta de enmascarar para refuerzo
             figure
-              img.mb-2(src="@/assets/curso/temas/img67.jpg", alt="Tira de cinta de enmascarar recortada y alineada sobre una superficie de corte, lista para ser aplicada sobre la horma. ").m-auto
+              img.mb-2(src="@/assets/curso/temas/img67.png", alt="Tira de cinta de enmascarar recortada y alineada sobre una superficie de corte, lista para ser aplicada sobre la horma. ").m-auto
       .row(titulo="Horma completamente enmascarada").ajuste-cajaAcordion
         p.mb-4 Una vez dibujada la línea sobre la cinta, tomamos la horma y alineamos el eje marcado con los puntos medios del empeine previamente determinados. Del mismo modo, repetimos el proceso en el talón, como se muestra en la siguiente imagen.
         .row.justify-content-center
@@ -99,7 +99,7 @@
               h5 Figura 21. 
               span Horma completamente enmascarada
             figure
-              img.mb-2(src="@/assets/curso/temas/img68.jpg", alt="Vista superior de la horma con cobertura total de cinta de enmascarar, lista para el trazado del diseño del calzado. ").m-auto
+              img.mb-2(src="@/assets/curso/temas/img68.png", alt="Vista superior de la horma con cobertura total de cinta de enmascarar, lista para el trazado del diseño del calzado. ").m-auto
       .row(titulo="Horma enmascarada con línea central marcada").ajuste-cajaAcordion
         p.mb-4 Por último se refilan los sobrantes de cinta y se realiza un corte por los ejes obtenidos, es decir, el eje del empeine y del talón.
         .row.justify-content-center
@@ -108,7 +108,7 @@
               h5 Figura 22. 
               span Horma enmascarada con línea central marcada
             figure
-              img.mb-2(src="@/assets/curso/temas/img69.jpg", alt="Horma completamente cubierta con cinta de enmascarar y línea central trazada sobre la superficie para guiar el diseño del patrón. ").m-auto
+              img.mb-2(src="@/assets/curso/temas/img69.png", alt="Horma completamente cubierta con cinta de enmascarar y línea central trazada sobre la superficie para guiar el diseño del patrón. ").m-auto
 
 </template>
 

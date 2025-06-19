@@ -28,29 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la principal función de la horma en la fabricación del calzado?',
+            '¿Qué sistema de tallas mide la longitud del pie en milímetros?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Diseñar el estilo visual del zapato.',
+              texto: '<em>Mondopoint</em>.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Servir como molde tridimensional para su construcción.',
+              texto: 'Sistema métrico - <em>Mondopoint</em>.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto:
-                'Controlar la temperatura durante el proceso de producción.',
+              texto: 'Sistema inglés.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Reducir el peso del calzado terminado.',
+              texto: 'Sistema americano.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +58,29 @@ export default {
         },
         {
           id: 2,
-          texto: 'El sistema Mondopoint mide:',
+          texto:
+            '¿Qué parte de la horma se encuentra en la parte superior y sirve para fijarla en equipos?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'La anchura del pie en pulgadas.',
+              texto: 'Puntera.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'La altura del tacón.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'La longitud del pie en milímetros.',
+              texto: 'Tubo.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Mesa.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'La circunferencia del empeine.',
+              texto: 'Enfranque.',
               esCorrecta: false,
             },
           ],
@@ -89,29 +89,29 @@ export default {
         },
         {
           id: 3,
-          texto:
-            '¿Qué herramienta se utiliza para trazar ejes sobre la cinta en el enmascarado?',
+          texto: '¿Cuál es el propósito del enmascarado en el patronaje?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Tijeras.',
+              texto: 'Crear el diseño de suela.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cuchilla de corte.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Esfero.',
+              texto:
+                'Transferir el diseño tridimensional a un plano bidimensional.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Medir la altura del tacón.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Compás de precisión.',
+              texto: 'Cortar la palmilla.',
               esCorrecta: false,
             },
           ],
@@ -121,29 +121,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Cuál es la fórmula más común para calcular el ancho base metatarsiano?',
+            '¿Qué tipo de pie presenta una curvatura muy pronunciada en el arco plantar?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Largo del pie x 2.',
+              texto: 'Pie plano.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Largo del pie ÷ 6.',
-              esCorrecta: false,
+              texto: 'Pie cavo.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Largo del pie x 3/4.',
+              texto: 'Pie neutro.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Largo del pie x 5/6.',
-              esCorrecta: true,
+              texto: 'Pie pronador.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -152,28 +152,28 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de las siguientes es una clasificación de hormas según el tipo de pie?',
+            '¿Qué instrumento se utiliza para marcar líneas con alta precisión sobre la horma?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Horma ortopédica.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Horma tubular.',
+              texto: 'Compás de puntas secas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Borrador.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Horma con cuña.',
+              texto: 'Cinta métrica.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Horma media.',
+              texto: 'Cuchilla.',
               esCorrecta: false,
             },
           ],
@@ -183,7 +183,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué componente de la horma permite abrirla durante el proceso?',
+            '¿Cómo se llama la parte más ancha de la parte posterior de la horma?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -194,17 +194,17 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Bisagra.',
+              texto: 'Cuboide.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Tubo.',
+              texto: 'Tacón.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Canto.',
+              texto: 'Enfranque.',
               esCorrecta: false,
             },
           ],
@@ -213,29 +213,29 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Cuál es la secuencia correcta para iniciar el enmascarado?',
+          texto:
+            '¿Cuál es la unidad de medida usada en la fórmula “Ancho base metatarsiano = 5/6 del largo del pie”?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar cinta lateral, marcar bordes, cortar eje.',
-              esCorrecta: true,
+              texto: 'Milímetros.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Colocar cinta en el empeine y talón, luego reforzar con cinta en línea de profundidad.',
+              texto: 'Centímetros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Cubrir con papel, trazar eje, colocar cinta final.',
-              esCorrecta: false,
+              texto: 'Proporción.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Trazar patrón, cubrir con cinta, recortar bordes.',
+              texto: 'Grados.',
               esCorrecta: false,
             },
           ],
@@ -245,28 +245,28 @@ export default {
         {
           id: 8,
           texto:
-            'El tipo de pisada en el que el pie se inclina hacia adentro es:',
+            '¿Qué tipo de horma se recomienda para pies con necesidades especiales y soporte específico?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Pisada supinadora.',
-              esCorrecta: false,
+              texto: 'Horma ortopédica.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Pisada neutra.',
+              texto: 'Horma deportiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Pisada pronadora.',
-              esCorrecta: true,
+              texto: 'Horma de moda.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Pisada elevada.',
+              texto: 'Horma plana.',
               esCorrecta: false,
             },
           ],
@@ -275,29 +275,28 @@ export default {
         },
         {
           id: 9,
-          texto:
-            '¿Qué zona de la horma se encuentra entre el talón y la parte delantera?',
+          texto: '¿Qué parte de la horma representa el punto de quiebre?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Mesa.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Enfranque.',
+              texto: 'Zona de división entre delantera y enfranque.',
               esCorrecta: true,
             },
             {
+              id: 'b',
+              texto: 'Línea del tacón.',
+              esCorrecta: false,
+            },
+            {
               id: 'c',
-              texto: 'Taco.',
+              texto: 'Canto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Puntera.',
+              texto: 'Tubo.',
               esCorrecta: false,
             },
           ],
@@ -307,28 +306,28 @@ export default {
         {
           id: 10,
           texto:
-            '¿Cuál es el perímetro que se mide desde el talón pasando por el cuboide hasta el eje principal?',
+            '¿Cuál es la herramienta esencial para cortar el enmascarado final?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Perímetro talonera-empeine.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Perímetro de retención.',
+              texto: 'Regla.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Tijeras.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Perímetro de la bola.',
+              texto: 'Compás.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Perímetro de empeine.',
+              texto: 'Metro de calzado.',
               esCorrecta: false,
             },
           ],
@@ -338,7 +337,7 @@ export default {
         {
           id: 11,
           texto:
-            'La horma con cuña permite una extracción más fácil del calzado terminado.',
+            'El sistema europeo de tallas también es conocido como Paris <em>Point</em>.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -359,7 +358,7 @@ export default {
         {
           id: 12,
           texto:
-            'El enmascarado solo se realiza en la cara interna de la horma para mayor precisión.',
+            'La horma de tacón alto tiene el mismo ángulo en el asiento del talón sin importar su altura.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -379,19 +378,19 @@ export default {
         },
         {
           id: 13,
-          texto: 'El pie cavo tiene un arco plantar muy pronunciado.',
+          texto: 'El perímetro del pie se mide sobre el dorso del empeine.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +398,20 @@ export default {
         },
         {
           id: 14,
-          texto: 'El sistema europeo de tallas es el mismo que el inglés.',
+          texto:
+            'Las hormas para pie delgado evitan el deslizamiento dentro del calzado.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -419,7 +419,8 @@ export default {
         },
         {
           id: 15,
-          texto: 'El ancho de mesa se mide en la base trasera de la horma.',
+          texto:
+            'El proceso de enmascarado comienza colocando una cinta de refuerzo sobre el talón.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
