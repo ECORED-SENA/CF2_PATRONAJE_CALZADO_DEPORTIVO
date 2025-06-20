@@ -1,1 +1,1 @@
-module.exports = 'Fundamentos del Patronaje de Calzado: Medidas, Hormas y Enmascarado'
+module.exports = 'Principios técnicos para el desarrollo de patrones de calzado'

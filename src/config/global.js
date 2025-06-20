@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Fundamentos del Patronaje de Calzado: Medidas, Hormas y Enmascarado',
+    Name: 'Principios técnicos para el desarrollo de patrones de calzado',
     Description:
       'Este componente formativo brinda los conocimientos esenciales para aprender a realizar el patronaje manual de calzado deportivo, con énfasis en el uso de sistemas de medidas, la comprensión de la estructura y tipos de hormas, y su conexión con la anatomía del pie. Asimismo, orienta al aprendiz en el uso correcto de herramientas técnicas y en la realización del proceso de enmascarado, una etapa fundamental en la creación del molde patrón. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
