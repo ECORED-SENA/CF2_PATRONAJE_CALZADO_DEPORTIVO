@@ -52,7 +52,7 @@
         
         figure(data-aos="zoom-in")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/UPDQ7P_fhlU" title="Clasificación según forma del pie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/BQhluepsHjA" title="El tipo de pie y el calzado deportivo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     <!-- BLOQUE 2 -->
     Separador
