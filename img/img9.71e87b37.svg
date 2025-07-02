@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="874.102" height="379.563" viewBox="0 0 874.102 379.563">
+  <defs>
+    <filter id="Figura_1" x="0" y="0" width="874.102" height="379.563" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_405573" data-name="Rectangle 405573" width="382.334" height="248.709" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1179042" data-name="Group 1179042" transform="translate(-364.051 -4955.846)">
+    <g transform="matrix(1, 0, 0, 1, 364.05, 4955.85)" filter="url(#Figura_1)">
+      <g id="Figura_1-2" data-name="Figura 1" transform="translate(27 24)" fill="#fff" stroke="#229494" stroke-width="1">
+        <rect width="820.102" height="325.563" stroke="none"/>
+        <rect x="0.5" y="0.5" width="819.102" height="324.563" fill="none"/>
+      </g>
+    </g>
+    <path id="Path_1035322" data-name="Path 1035322" d="M-7897.75-6418.755l26.8,57.533" transform="translate(8654.051 11608)" fill="none" stroke="#2626ff" stroke-width="1"/>
+    <path id="Path_1035324" data-name="Path 1035324" d="M-7897.75-6418.755l137.928,146.314" transform="translate(8747.018 11517)" fill="none" stroke="#2626ff" stroke-width="1"/>
+    <path id="Path_1035323" data-name="Path 1035323" d="M-7897.75-6418.755l43.935,111.676" transform="translate(8725.051 11550.467)" fill="none" stroke="#2626ff" stroke-width="1"/>
+    <path id="Path_1035325" data-name="Path 1035325" d="M-7879.6-6466.5l107.353,65.594" transform="translate(8521.051 11587)" fill="none" stroke="#644b79" stroke-width="1.5"/>
+    <path id="Path_1035326" data-name="Path 1035326" d="M-7879.6-6466.5l107.353,65.594" transform="translate(8590.051 11529.627)" fill="none" stroke="#644b79" stroke-width="1.5"/>
+    <g id="Group_1179038" data-name="Group 1179038" transform="translate(609.051 5022.712)">
+      <g id="Group_1179037" data-name="Group 1179037" clip-path="url(#clip-path)">
+        <path id="Path_1035321" data-name="Path 1035321" d="M370.327,0H253.165c0,67.7-12.27,91.8-60.914,131.72-22.161,18.145-47.262,37.153-70.894,52.922-35.338,23.588-43.546,21-76.853,35.035-8.512,3.588-17.5,7.389-27.433,5.919-18.922-2.809-21.731,9.461-10.325,16.33,13.78,8.294,25.618,5.442,36.677,2.809,9.115-2.2,17.8-4.321,27.3-1.469,15.509,4.58,25.445,6.178,34.862,5.141,9.419-.992,18.836-4.752,32.963-10.758,27.475-11.706,51.625-18.834,76.033-20.346,24.5-1.512,49.034,2.679,77.115,13.564,67.134,26.008,102,10.24,87.309-66.875C367.691,104.461,370.327,60.437,370.327,0" transform="translate(0)" fill="none" stroke="#196a6a" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="Group_1179039" data-name="Group 1179039">
+      <circle id="Ellipse_11681" data-name="Ellipse 11681" cx="11" cy="11" r="11" transform="translate(745.051 5178)" fill="#cb98f5"/>
+      <circle id="Ellipse_11682" data-name="Ellipse 11682" cx="8" cy="8" r="8" transform="translate(748.051 5181)" fill="#f4eafc"/>
+    </g>
+    <g id="Group_1179040" data-name="Group 1179040" transform="translate(69 -57.373)">
+      <circle id="Ellipse_11681-2" data-name="Ellipse 11681" cx="11" cy="11" r="11" transform="translate(745.051 5178)" fill="#cb98f5"/>
+      <circle id="Ellipse_11682-2" data-name="Ellipse 11682" cx="8" cy="8" r="8" transform="translate(748.051 5181)" fill="#f4eafc"/>
+    </g>
+    <g id="Group_1179041" data-name="Group 1179041" transform="translate(162.181 -22)">
+      <circle id="Ellipse_11681-3" data-name="Ellipse 11681" cx="11" cy="11" r="11" transform="translate(745.051 5178)" fill="#cb98f5"/>
+      <circle id="Ellipse_11682-3" data-name="Ellipse 11682" cx="8" cy="8" r="8" transform="translate(748.051 5181)" fill="#f4eafc"/>
+    </g>
+    <text id="Metatarsos" transform="translate(548.051 5128)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Metatarsos</tspan></text>
+    <text id="Empeine" transform="translate(636.051 5062)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Empeine</tspan></text>
+    <text id="Entrada" transform="translate(1019.051 5092)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entrada</tspan></text>
+    <path id="Path_1035327" data-name="Path 1035327" d="M-7914.674-6431.1l95.273-77.478" transform="translate(8834.051 11598.132)" fill="none" stroke="#644b79" stroke-width="1.5"/>
+  </g>
+</svg>
